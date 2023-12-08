@@ -26,7 +26,7 @@ GAS_PRICE=5
 yarn install
 ``` 
 
-4. Run verify to pre-check the correctness `deposit data file` and `wallet balance`
+4. Run verify to pre-check the correctness `deposit data file`
 ```sh
 yarn verify
 ``` 
