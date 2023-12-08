@@ -11,7 +11,7 @@ A simple script for depositing JBC funds to all validators in the deposit data f
 make env
 ```
 
-1. Update `.env` file
+2. Update `.env` file
 ```sh
 # Replace ${PRIVATE_KEY} with private key
 PRIVATE_KEY=${PRIVATE_KEY}
@@ -21,17 +21,17 @@ DEPOSIT_DATA_FILE=./deposit_data-xxxxxx.json
 GAS_PRICE=5 
 ```
 
-1. Install dependencies
+3. Install dependencies
 ```sh
 yarn install
 ``` 
 
-1. Run verify to check the correctness deposit data file and wallet balance
+4. Run verify to pre-check the correctness `deposit data file` and `wallet balance`
 ```sh
 yarn verify
 ``` 
 
-1. Run deposit
+5. Run deposit
 ```sh
 yarn deposit
 ``` 
