@@ -53,6 +53,7 @@ async function main() {
         `0x${depositData[i].deposit_data_root}`,
         {
           value: toWei(`${config.depositETHAmount}`),
+          gasLimit: 300000,
         }
       ),
       `depositContract.deposit()`
